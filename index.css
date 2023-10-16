@@ -1,0 +1,663 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#container{
+    overflow: hidden;
+}
+nav{
+   display: flex;
+   justify-content: space-around; 
+   position: fixed;
+   width: 100%;
+   top: 0px;
+    max-height: 50vh;
+}
+
+nav h1{
+    margin-top: 2rem;
+    font-size: x-large;
+}
+#ham{
+    margin-top: 2rem;
+    display: none;
+}
+ #cross{
+    margin-top: 2rem;
+    display: none;
+}
+ul{
+    display: flex;
+    gap:15px;
+    list-style: none;
+    margin-top: 2rem;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+#pp img {
+    height:180px;
+    width: 170px;
+    
+    border-radius:  30% 70% 76% 24% / 30% 50% 50% 70%;
+}
+ul i{
+    cursor: pointer;
+    font-size: x-large;
+}
+#pp{
+    margin-left: 1-rem;
+}
+#mainsec{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 19rem;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100vh;
+    margin-left: 18rem;
+
+}
+#pp{
+    width: 50%;
+}
+#text{
+    width: 40%;
+
+}
+#text p{
+    margin-top: 7px;
+
+}
+#f{
+    font-size: 28px;
+    font-weight: bold;
+}
+span{
+    color: rgb(41, 137, 247);
+}
+#text i{
+    padding-top: 10px;
+    color: blue;
+    margin-right: 5px;
+}
+#contactmebtn{
+    height: 40px;
+    width: 120px;
+    text-align: center;
+    margin-top: 1rem;
+    background-color: rgb(41, 137, 247) ;
+    border-radius: 5px;
+    border: 1px solid rgb(41, 137, 247);
+    font-size: 16px;
+    color: white;
+}
+#contactmebtn2{
+    height: 40px;
+    width: 120px;
+    text-align: center;
+    margin-top: 1rem;
+    background-color: rgb(41, 137, 247) ;
+    border-radius: 5px;
+    border: 1px solid rgb(41, 137, 247);
+    font-size: 16px;
+    color: white;
+}
+#sun{
+    display: none;
+}
+nav i{
+    margin-top: 2rem;
+    font-size: x-large;
+}
+#Aboutme{
+    
+    max-height: 190vh;
+    max-width: 80% ;
+    margin-top: -20rem;
+    text-align: center;
+    margin-left: 4rem;
+}
+#Aboutme h2{
+    font-size: xx-large;
+}
+#aboutmesec{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3rem;
+    flex-wrap: wrap;
+}
+#aboutmeimg{
+    width: 60%;
+}
+#aboutmetext{
+    width: 40%;
+    text-align: start;
+    margin-left: -14rem;
+}
+#m{
+    font-size: x-large;
+}
+#cvdownload{
+    height: 40px;
+    width: 120px;
+    font-size: 14px;
+    margin-top: 1rem;
+    background-color:rgb(41, 137, 247) ;
+    border: 1px solid rgb(41, 137, 247);
+    border-radius: 5px;
+}
+#cvdownload a{
+    text-decoration: none;
+    color: white;
+    
+}
+#skillsec{
+    text-align: center;
+}
+h3{
+    font-size: xx-large;
+    
+    
+}
+
+li{
+    list-style: none;
+    text-transform: uppercase;
+}
+#skillsec{
+    max-width: 60%;
+    margin: 60px auto;
+    padding: 20px;
+    margin-top: 9rem;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25),rgba(0,0,0,0.22);
+}
+#skillsec li{
+    margin: 20px 0;
+    padding: 10px;
+}
+#sec{
+    border: 4px solid rgb(13, 132, 244);
+    width: 100%;
+}
+
+.bar{
+    background: #353b48;
+    display: block;
+    height: 20px;
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12),rgba(0,0,0,0.25);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+
+}
+.bar:hover{
+    box-shadow: 0 14px 28px rgba(0,0,0,0.12), 0 10px 10px rgba(0,0,0,0.22);
+}
+.bar{
+    color: white;
+}
+.bar span{
+    height: 20px;
+    float: left;
+    color: white;
+    background: linear-gradient(135deg ,rgb(236,0,140,1)0%, rgba(252,103,103,1)100%);
+}
+.Html{
+    width: 90%;
+    animation: Html 3s;
+    color: white;
+}
+.css{
+    width: 80%;
+    animation: css 3s;
+}
+.Javascript{
+    width: 75%;
+    animation: Javascript 3s;
+}
+
+.c{
+    width: 95%;
+    animation: c 3s;
+    color: white;
+}
+.Java{
+    width: 85%;
+    animation: Java 3s;
+}
+.Dsa{
+    width: 80%;
+    animation: Dsa 3s;
+}
+@keyframes Html {
+    
+    0%{
+        width: 0%;
+    }
+    
+    100%{
+        width: 90%;
+    }
+
+    
+}
+@keyframes css {
+    
+    0%{
+        width: 0%;
+    }
+    
+    100%{
+        width: 80%;
+    }
+
+    
+}
+@keyframes Javascript {
+    
+    0%{
+        width: 0%;
+    }
+    
+    100%{
+        width: 70%;
+    }
+
+    
+}
+
+@keyframes c {
+    
+    0%{
+        width: 0%;
+    }
+    
+    100%{
+        width: 95%;
+    }
+
+    
+}
+@keyframes Java {
+    
+    0%{
+        width: 0%;
+    }
+    
+    100%{
+        width: 85%;
+    }
+
+    
+}
+@keyframes Dsa {
+    
+    0%{
+        width: 0%;
+    }
+    
+    100%{
+        width: 80%;
+    }
+
+    
+}
+#Portfoli{
+    max-height: 200vh;
+    max-width: 80%;
+    
+    margin-left: 9rem;
+    margin-top: 10rem;
+}
+#portext{
+    font-size: xx-large;
+    text-align: center;
+}
+#pordiv{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+#pordiv2{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+#Services{
+    max-width:800vw;
+    text-align: center;
+
+    max-height: 200vh;
+    margin-left: 14rem;
+    margin-top: 7rem;
+    
+}
+#Services h4{
+    font-size: xx-large;
+    margin-bottom: 3rem;
+    margin-left: -12rem;
+    
+}
+
+
+#webdesign{
+    width: 25%;
+    height:40vh;
+    border-radius: 10px;
+    background-image: url(https://img.freepik.com/premium-photo/graphic-designer-software-modern-design-web-page-commercial-ads_31965-46330.jpg);
+    background-position: center;
+    background-size: cover;
+    opacity: 0.9;
+    color:rgb(245, 26, 26);
+    font-size: 30px;
+    position: relative;
+    margin-left: 3rem;
+    
+
+}
+#code3{
+    height: 30px;
+    width:50px;
+    position: absolute;
+    margin-top: 14rem;
+    margin-left: 5rem;
+    color: rgb(179, 179, 234);
+    background-color: rgb(233, 9, 83);
+}
+#webdesign p{
+    padding-top: 16rem;
+}
+#sdiv{
+    display: flex;
+    gap:5px;
+    flex-wrap: wrap;
+    max-width: 100%;
+    max-height: 200vh;
+}
+
+
+#webdevelopment{
+    width: 25%;
+    height:40vh;
+    border-radius: 10px;
+    background-image: url(https://www.cnet.com/a/img/resize/2f5aada0dd5f4f21e09d855658406aa026d5c102/hub/2020/06/10/06f2b84a-2241-4567-a2a5-611ebb1e2650/gettyimages-1129377183.jpg?auto=webp&fit=crop&height=900&width=1200);
+    background-position: center;
+    background-size: cover;
+    opacity: 0.9;
+    color:rgb(245, 26, 26);
+    font-size: 30px;
+    position: relative;
+    margin-left: 3rem;
+    
+
+}
+#code{
+    height: 30px;
+    width:50px;
+    position: absolute;
+    margin-top: 12rem;
+    margin-left: 3rem;
+    color: rgb(179, 179, 234);
+    background-color: rgb(221, 4, 73);
+}
+#webdevelopment p{
+    padding-top: 14rem;
+}
+
+
+#moon{
+    cursor: pointer;
+}
+#Logodesign{
+    border-radius: 10px;
+    width: 25%;
+    height:40vh;
+    background-image: url(https://img.freepik.com/free-photo/man-taking-e-leraning-courses_23-2149231597.jpg?size=626&ext=jpg&ga=GA1.1.1413502914.1697068800&semt=ais);
+    background-position: center;
+    background-size: cover;
+    opacity: 0.9;
+    color:rgb(245, 26, 26);
+    font-size: 30px;
+    position: relative;
+    margin-left: 3rem;
+    
+
+}
+#code2{
+    height: 30px;
+    width:50px;
+    position: absolute;
+    margin-top: 14rem;
+    margin-left: 5rem;
+    color: rgb(179, 179, 234);
+    background-color: rgb(241, 121, 17);
+}
+#Logodesign p{
+    padding-top: 16rem;
+}
+#contactmesection{
+    max-height: 300vh;
+    width: 80vw;
+
+    text-align: center;
+    margin-top: 7rem;
+    margin-left: 9rem;
+}
+#contactpart{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 90%;
+    height: 100%;
+}
+#t{
+    margin-top: 2rem;
+}
+#tt span{
+    margin-left: 10px;
+}
+#tt a{
+    color :blue;
+}
+textarea{
+    border: 2px solid rgb(3, 90, 221);
+}
+#t span{
+    margin-left: 10px;
+}
+#t a{
+    color:blue;
+}
+input{
+    height: 30px;
+    width: 300px;
+    border-radius: 10px;
+    border: 2px solid rgb(3, 90, 221);
+
+}
+a{
+    text-decoration: none;
+    color :white;
+}
+#footer{
+    max-width: 100%;
+    max-height: 20vh;
+    margin-top: 1rem;
+    background-color: rgb(0, 26, 131);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 1rem;
+}
+@media (max-width:991px) {
+    #mainsec{
+        flex-direction: column-reverse;
+        margin-left: 1rem;
+        margin-top: 3rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+    nav{
+        background-color: crimson;
+    }
+   nav i{
+   font-size: x-large;
+   margin-right: 1rem;
+   }
+   nav h1{
+    padding-bottom:1rem;
+   }
+   nav i{
+    padding-bottom: 1rem;
+   }
+   #ham{
+    padding-bottom: 1rem;
+   }
+    ul{
+        
+        flex-direction: column;
+        
+        width: 200%;
+        padding-top: 3rem;
+        transition: opacity 0.5s ease-in;
+        margin-left: -1rem;
+        padding-bottom: 2rem;
+        font-size: 16px;
+
+       
+        
+    }
+    
+   ul li{
+   text-align: center;
+
+   padding-top: 20px;
+   }
+    #cross{
+        display: none;
+        font-size: x-large;
+        margin-right: 2rem;
+    }
+    #ham{
+        display: block;
+        margin-right:-2rem;
+    }
+    ul{
+        display: none;
+    
+    }
+    #pp{
+        width: 100%;
+        margin-left: 1rem;
+    }
+    #text{
+        width: 100%;
+        margin-top: 1rem;
+    }
+    #Aboutme{
+          margin-top: -4rem;
+    }
+    #Aboutmesec{
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    #aboutmeimg{
+        width: 100%;
+        margin-left: -6rem;
+    }
+    #aboutmetext{
+        margin-top: 1rem;
+        width: 100%;
+        margin-left: -2rem;
+    }
+    #cvdownload{
+        margin-left: 3rem;
+    }
+    #contactmebtn{
+        margin-left: 5rem;
+    }
+    #pp img{
+        margin-left: 4rem;
+    }
+    #skillsec{
+        max-width: 100%;
+    }
+    .bar span{
+        height: 20px;
+    }
+    #pordiv{
+        flex-direction: column;
+        width: 100%;
+        margin-left: -8rem;
+    }
+    #pordiv2{
+        flex-direction: column;
+        width: 100%;
+        margin-left: -8rem;
+    }
+    #portext{
+        font-size: xx-large;
+        margin-left: -5rem;
+        margin-bottom: 2rem;
+    }
+    #sdiv{
+        flex-direction: column;
+        max-width: 100%;
+    
+    }
+    #webdevelopment{
+        width: 90vw;
+        margin-left: -13rem;
+    }
+    #code{
+        margin-top: 11rem;
+    }
+    #webdevelopment p{
+        margin-top: -1.8rem;
+    }
+    #webdesign{
+        width: 90vw;
+        margin-left: -13rem;
+        }
+    #code3{
+        margin-top: 11rem;
+    }
+    #webdesign p{
+        margin-top: -1.8rem;
+    }
+    #Logodesign{
+        width: 90vw;
+        margin-left: -13rem;
+    }
+    #Logodesign p{
+        margin-top: -2rem;
+    }
+    #contactpart{
+        flex-direction: column;
+        margin-left: -9rem;
+    }
+    #contactparinput{
+        margin-top: 1rem;
+    }
+    input{
+
+        width: 270px;
+        margin-left: 1.3rem;
+    }
+    #contactmesection h3{
+        margin-left: -14rem;
+
+    }
+
+    
+} 
+    
